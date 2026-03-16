@@ -1,0 +1,44 @@
+aid: konfig
+name: Konfig
+description: >-
+  Konfig is a developer tools platform that generates SDKs, documentation,
+  demos, and tutorials for REST APIs based on OpenAPI Specifications and
+  Postman Collection Format. It automatically generates and publishes SDKs
+  in all major programming languages.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - SDK Generation
+  - API Documentation
+  - Developer Tools
+  - OpenAPI
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/konfig/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: konfig:konfig
+    name: Konfig API
+    description: >-
+      Konfig's API for generating and publishing SDKs, documentation, and
+      tutorials from OpenAPI specifications.
+    humanURL: https://konfigthis.com/
+    tags:
+      - SDK Generation
+      - Documentation
+    properties:
+      - type: Documentation
+        url: https://konfigthis.com/docs/getting-started/openapi-specification/
+      - type: Getting Started
+        url: https://konfigthis.com/docs/getting-started/openapi-specification/
+common:
+  - type: Website
+    url: https://konfigthis.com/
+  - type: Documentation
+    url: https://konfigthis.com/docs/getting-started/openapi-specification/
+  - type: Blog
+    url: https://konfigthis.com/blog/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
