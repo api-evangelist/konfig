@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - SDK Generation
   - API Documentation
   - Developer Tools
   - OpenAPI
+  - SDK Generation
 url: >-
   https://raw.githubusercontent.com/api-evangelist/konfig/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -25,8 +25,8 @@ apis:
       tutorials from OpenAPI specifications.
     humanURL: https://konfigthis.com/
     tags:
-      - SDK Generation
       - Documentation
+      - SDK Generation
     properties:
       - type: Documentation
         url: https://konfigthis.com/docs/getting-started/openapi-specification/
