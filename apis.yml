@@ -37,7 +37,7 @@ apis:
     properties:
       - type: Documentation
         url: https://konfigthis.com/docs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://konfigthis.com/docs/getting-started/openapi-specification/
       - type: Interactive Tutorial
         url: https://konfigthis.com/interactive-tutorial/
@@ -50,7 +50,7 @@ common:
     url: https://konfigthis.com/
   - type: Documentation
     url: https://konfigthis.com/docs/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://konfigthis.com/docs/getting-started/openapi-specification/
   - type: Blog
     url: https://konfigthis.com/blog/
