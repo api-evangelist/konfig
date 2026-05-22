@@ -3,8 +3,10 @@ specificationVersion: '0.1'
 schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
 provider: Konfig
 providerId: konfig
+status: Sunset
+sunsetDate: '2024-12-25'
 created: '2026-05-04'
-modified: '2026-05-04'
+modified: '2026-05-22'
 tags:
   - API Documentation
   - CLI
@@ -15,9 +17,14 @@ tags:
   - Rate Limiting
   - Quotas
   - Throttling
-description: Machine-readable rate limit definitions for the Konfig API surface. Captures per-tier quotas,
-  burst behavior, response signaling, and recovery semantics. Defaults are scaffold values to be replaced
-  with published provider limits.
+  - Sunset
+description: >-
+  HISTORICAL ONLY. Konfig was sunset in December 2024
+  (https://dylanhuang.com/blog/closing-my-startup/). Konfig delivered an SDK
+  and docs generator, not a public REST API surface, and never published per-
+  tier request rate limits. The limits below are scaffold defaults retained
+  for schema completeness only and must not be treated as authoritative
+  Konfig policy.
 headers:
   limit: X-RateLimit-Limit
   remaining: X-RateLimit-Remaining

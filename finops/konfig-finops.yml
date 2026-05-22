@@ -8,10 +8,12 @@ alignedWith:
   dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
 provider: Konfig
 providerId: konfig
+status: Sunset
+sunsetDate: '2024-12-25'
 publisherName: Konfig
 serviceCategory: API
 created: '2026-05-04'
-modified: '2026-05-04'
+modified: '2026-05-22'
 tags:
   - API Documentation
   - CLI
@@ -22,8 +24,14 @@ tags:
   - FinOps
   - Cost Management
   - FOCUS
-description: FinOps framework definition for the Konfig API surface. Provides a FOCUS-aligned mapping
-  for cost allocation, usage measurement, and unit-economics reporting across the provider's APIs.
+  - Sunset
+description: >-
+  HISTORICAL ONLY. Konfig was sunset in December 2024
+  (https://dylanhuang.com/blog/closing-my-startup/). This FinOps mapping
+  conforms to the FinOps Framework and FOCUS 1.3 data spec but is retained
+  for schema completeness only — Konfig did not publish a public usage-
+  billed API surface, and no chargeable unit-of-work metering was ever
+  documented externally.
 principles:
   - name: Visibility
     description: Make API consumption costs visible to engineering, product, and finance teams in near

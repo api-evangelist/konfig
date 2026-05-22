@@ -1,12 +1,19 @@
 aid: konfig
 name: Konfig
 description: >-
-  Konfig is a developer tools platform that generates SDKs, documentation,
-  demos, and tutorials for REST APIs based on OpenAPI Specifications and
-  Postman Collection Format. It automatically generates and publishes SDKs
-  in all major programming languages including Python, TypeScript, Java,
-  C#, Go, Ruby, PHP, Swift, and Kotlin.
+  Konfig was a developer-tools startup that generated SDKs, API documentation,
+  interactive demos, and tutorials from OpenAPI Specifications and Postman
+  Collections, delivered primarily through the konfig-cli command-line interface
+  and GitHub Actions automation. The company was sunset in December 2024;
+  founder Dylan Huang announced the closure in a "Closing My Startup" blog post
+  on November 25, 2024. The flagship konfig generator repository's GitHub
+  description now reads "SDK & API Docs Generator. Sunset as of December 2024."
+  This index is retained as a historical record of the platform and the
+  consolidation of the SDK-generation category around Stainless, Fern, and
+  Speakeasy.
 type: Index
+status: Sunset
+sunsetDate: '2024-12-25'
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - API Documentation
@@ -15,25 +22,31 @@ tags:
   - OpenAPI
   - Postman
   - SDK Generation
+  - Sunset
 url: >-
   https://raw.githubusercontent.com/api-evangelist/konfig/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-28'
+modified: '2026-05-22'
 specificationVersion: '0.19'
 apis:
-  - aid: konfig:konfig
-    name: Konfig SDK Generation Platform
+  - aid: konfig:konfig-sdk-generation
+    name: Konfig SDK Generation Platform (Sunset)
     description: >-
       Konfig's developer platform for generating, validating, and publishing
-      SDKs, documentation, and interactive tutorials from OpenAPI
-      specifications and Postman Collections. Delivered primarily through
-      the konfig-cli command-line interface and GitHub Actions integration.
+      SDKs, API reference documentation, and interactive tutorials from
+      OpenAPI specifications and Postman Collections. Delivered primarily
+      through the konfig-cli command-line interface and GitHub Actions
+      integration. Konfig never published a public REST API for the platform
+      itself. The platform was sunset in December 2024 along with the
+      konfigthis.com hosted offering.
     humanURL: https://konfigthis.com/
+    status: Sunset
     tags:
       - SDK Generation
       - Documentation
       - Developer Tools
       - OpenAPI
+      - Sunset
     properties:
       - type: Documentation
         url: https://konfigthis.com/docs/
@@ -41,10 +54,12 @@ apis:
         url: https://konfigthis.com/docs/getting-started/openapi-specification/
       - type: Interactive Tutorial
         url: https://konfigthis.com/interactive-tutorial/
+      - type: GitHub
+        url: https://github.com/konfig-dev/konfig
       - type: Examples
-        url: https://github.com/konfig-sdks/openapi-examples
-      - type: Schedule Demo
-        url: https://konfigthis.com/schedule-demo/
+        url: https://github.com/konfig-dev/getting-started-example
+      - type: ClosureAnnouncement
+        url: https://dylanhuang.com/blog/closing-my-startup/
 common:
   - type: Website
     url: https://konfigthis.com/
@@ -54,12 +69,41 @@ common:
     url: https://konfigthis.com/docs/getting-started/openapi-specification/
   - type: Blog
     url: https://konfigthis.com/blog/
-  - type: GitHub Examples
-    url: https://github.com/konfig-sdks/openapi-examples
+  - type: GitHub
+    url: https://github.com/konfig-dev
+  - type: GitHub Generator
+    url: https://github.com/konfig-dev/konfig
+  - type: GitHub Automation
+    url: https://github.com/konfig-dev/automation
+  - type: GitHub Backstage Plugin
+    url: https://github.com/konfig-dev/backstage-plugin-konfig
   - type: LinkedIn
     url: https://www.linkedin.com/company/konfig
   - type: Schedule Demo
     url: https://konfigthis.com/schedule-demo/
+  - type: ClosureAnnouncement
+    url: https://dylanhuang.com/blog/closing-my-startup/
+  - type: Plans
+    url: plans/konfig-plans-pricing.yml
+  - type: Rate Limits
+    url: rate-limits/konfig-rate-limits.yml
+  - type: FinOps
+    url: finops/konfig-finops.yml
+provider:
+  legalName: Konfig
+  founder: Dylan Huang
+  status: Sunset
+  sunsetDate: '2024-12-25'
+  sunsetAnnouncement: https://dylanhuang.com/blog/closing-my-startup/
+  githubOrg: https://github.com/konfig-dev
+  githubOrgRepoCount: 58
+  flagshipRepo: https://github.com/konfig-dev/konfig
+  flagshipRepoStars: 1531
+  competitiveContext:
+    - Stainless
+    - Fern
+    - Speakeasy
+    - OpenAPI Generator
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

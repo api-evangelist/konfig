@@ -3,8 +3,10 @@ specificationVersion: '0.1'
 schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
 provider: Konfig
 providerId: konfig
+status: Sunset
+sunsetDate: '2024-12-25'
 created: '2026-05-04'
-modified: '2026-05-04'
+modified: '2026-05-22'
 tags:
   - API Documentation
   - CLI
@@ -12,8 +14,17 @@ tags:
   - OpenAPI
   - Postman
   - SDK Generation
-description: Machine-readable plans and pricing scaffold for this API provider. Conforms to the API Commons
-  Plans schema. Tier limits and prices are scaffold defaults; replace with provider-published values.
+  - Sunset
+description: >-
+  HISTORICAL ONLY. Konfig was sunset in December 2024 (founder closure
+  announcement at https://dylanhuang.com/blog/closing-my-startup/). The
+  konfigthis.com pricing page returns HTTP 404 and the company never
+  published a public REST API for its SDK-generation platform; commercial
+  plans were sold via "Schedule a Demo" contact-sales. This file conforms to
+  the API Commons Plans schema but the tier limits, quotas, and prices below
+  are scaffold defaults retained as a historical placeholder; they were
+  never confirmed against published provider documentation and must not be
+  treated as authoritative.
 plans:
   - id: konfig-free
     name: Free
