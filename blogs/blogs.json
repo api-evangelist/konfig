@@ -2,8 +2,8 @@
   "repo": "konfig",
   "feeds": [
     {
-      "source": "https://konfigthis.com/blog/atom.xml",
-      "feed_url": "https://konfigthis.com/blog/atom.xml",
+      "source": "https://konfigthis.com/blog/rss.xml",
+      "feed_url": "https://konfigthis.com/blog/rss.xml",
       "title": "",
       "saved": 0,
       "method": "feed"
@@ -17,5 +17,5 @@
     }
   ],
   "post_count": 22,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
