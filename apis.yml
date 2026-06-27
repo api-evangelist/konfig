@@ -85,7 +85,7 @@ common:
     url: https://dylanhuang.com/blog/closing-my-startup/
   - type: Plans
     url: plans/konfig-plans-pricing.yml
-  - type: Rate Limits
+  - type: RateLimits
     url: rate-limits/konfig-rate-limits.yml
   - type: FinOps
     url: finops/konfig-finops.yml
