@@ -13,6 +13,8 @@ description: >-
   Speakeasy.
 type: Index
 status: Sunset
+deprecated: true
+deprecatedReason: "Konfig's API has been sunset. Retained for historical reference."
 sunsetDate: '2024-12-25'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
@@ -61,6 +63,8 @@ apis:
       - type: ClosureAnnouncement
         url: https://dylanhuang.com/blog/closing-my-startup/
 common:
+  - type: DomainSecurity
+    url: security/konfig-domain-security.yml
   - type: Website
     url: https://konfigthis.com/
   - type: Documentation
