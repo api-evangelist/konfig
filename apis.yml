@@ -41,7 +41,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/konfig/refs/heads/main/apis.yml
 created: '2026-03-16'
 modified: '2026-05-22'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: konfig:konfig-sdk-generation
     name: Konfig SDK Generation Platform (Sunset)
